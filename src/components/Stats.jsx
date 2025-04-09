@@ -10,16 +10,18 @@ export default function StatsSection() {
     <section className="bg-[#0f0c29] text-white px-6 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-6 sm:gap-0">
         {stats.map((stat, index) => (
-          <div key={index} className="flex items-center gap-4">
-            {/* Stat value + label in one line */}
-            <div className="flex items-baseline gap-2">
-              <h3 className="text-2xl sm:text-3xl font-bold text-white">{stat.value}</h3>
-              <p className="text-sm sm:text-base uppercase text-cyan-400 tracking-wide">
+          <div key={index} className="flex items-center">
+            {/* Stat value and label side by side */}
+            <div className="flex items-baseline gap-2 text-center sm:text-left">
+              <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
+                {stat.value}
+              </span>
+              <span className="text-sm sm:text-base md:text-lg text-cyan-400 uppercase tracking-wide">
                 {stat.label}
-              </p>
+              </span>
             </div>
 
-            {/* Divider (desktop only, skip last) */}
+            {/* Divider between stats */}
             {index !== stats.length - 1 && (
               <div className="hidden sm:block text-gray-600 text-xl px-4">|</div>
             )}
