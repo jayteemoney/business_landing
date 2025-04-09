@@ -1,14 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router} from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Stats from "./components/Feature";
+import {Navbar, Hero, Stats, Service, Card, Testimonial, Partners, Cta, Footer} from "./components"
 function App() {
   return (
-    <Router> {/* ✅ Wrap everything inside BrowserRouter */}
+    <Router> 
       <Navbar />
       <Hero />
       <Stats />
+      <Service/>
+      <Card/>
+      <Testimonial />
+      <Partners />
+      <Cta />
+      <Footer />
     </Router>
   );
 }
