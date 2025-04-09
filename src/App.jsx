@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router} from "react-router-dom";
-import {Navbar, Hero, Stats, Service, Card, Testimonial, Partners, Cta, Footer} from "./components"
+import {Navbar, Hero, Stats, Service, Billing, Card, Testimonial, Partners, Cta, Footer} from "./components"
 function App() {
   return (
     <Router> 
@@ -8,6 +8,7 @@ function App() {
       <Hero />
       <Stats />
       <Service/>
+      <Billing/>
       <Card/>
       <Testimonial />
       <Partners />

@@ -7,3 +7,5 @@ export {default as Testimonial}from "./Testimonial"
 export {default as Partners} from "./Partners"
 export {default as Cta} from"./Cta"
 export {default as Footer} from "./Footer"
+export {default as Billing} from "./Billing"
+
