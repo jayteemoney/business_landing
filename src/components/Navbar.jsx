@@ -29,11 +29,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* CTA Button */}
-        <Link to="/signup" className="hidden md:block bg-blue-500 px-5 py-2 rounded-lg text-white hover:bg-blue-600 transition">
-          Get Started
-        </Link>
-
         {/* Mobile Menu Button */}
         <button className="md:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <FiX /> : <FiMenu />}

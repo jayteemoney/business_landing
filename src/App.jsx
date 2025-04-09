@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
+import Hero from "./components/Hero"
 function App() {
   return (
     <Router> {/* ✅ Wrap everything inside BrowserRouter */}
       <Navbar />
+      <Hero />
       <main className="mt-16">
         <h1 className="text-white text-center text-4xl mt-10">Welcome to NeoBank</h1>
       </main>
