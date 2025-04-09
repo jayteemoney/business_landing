@@ -6,13 +6,16 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 z-50 bg-black/80 backdrop-blur-md text-white px-6 md:px-16 py-4">
+    <nav className="w-full fixed top-0 z-50 bg-[#00040F] backdrop-blur-md text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold">
+        <div>
+          <img src="" alt="" />
+          <Link to="/" className="text-2xl font-bold">
           <span className="text-blue-400">Neo</span>Bank
-        </Link>
+         </Link>
 
+        </div>
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-lg">
           <li>
