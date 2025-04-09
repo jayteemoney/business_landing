@@ -5,7 +5,7 @@ import { footerLinks } from '../others'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0f0c29] text-gray-400 px-6 pt-16 pb-10">
+    <footer className="bg-[#00040F]  text-gray-400 px-6 pt-16 pb-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Logo & About */}
         <div>

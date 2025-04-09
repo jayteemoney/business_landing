@@ -1,7 +1,7 @@
 // components/CTASection.jsx
 export default function Cta() {
   return (
-    <section className="bg-[#0f0c29] px-6 py-16">
+    <section className="bg-[#00040F]  px-6 py-16">
       <div className="max-w-7xl mx-auto bg-gradient-to-br from-blue-600 via-cyan-500 to-purple-600 rounded-2xl px-8 py-12 sm:px-12 sm:py-16 text-white shadow-xl">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
           {/* Text */}

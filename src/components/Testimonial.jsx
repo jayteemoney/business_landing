@@ -24,7 +24,7 @@ const testimonials = [
 
 export default function Testimonial() {
   return (
-    <section className="bg-[#0f0c29] text-white px-6 py-16 lg:py-24">
+    <section className="bg-[#00040F]  text-white px-6 py-16 lg:py-24">
       {/* Intro Section - matches Figma */}
       <div className="max-w-6xl mx-auto mb-16 flex flex-col lg:flex-row justify-between items-start gap-6">
         {/* Left - Heading */}
