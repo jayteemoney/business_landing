@@ -8,7 +8,7 @@ export default function Billing() {
         {/* Left Image */}
         <div className="flex justify-center lg:justify-start">
           <img
-            src="/images/billing-ui.png" // replace with your actual path
+            src="/src/assets/bill.png" // replace with your actual path
             alt="Billing and invoicing interface"
             className="w-full max-w-lg rounded-xl shadow-2xl"
           />

@@ -42,9 +42,9 @@ export default function HeroSection() {
         {/* Right Visual */}
         <div className="relative flex justify-center lg:justify-end">
           <img
-            src="/images/hero-visual.png"
+            src="/src/assets/robot.png"
             alt="3D Cards and Robotic Hand"
-            className="w-full max-w-md md:max-w-lg drop-shadow-2xl"
+            className="w-full max-w-md md:max-w-lg drop-shadow-2xl "
           />
         </div>
       </div>

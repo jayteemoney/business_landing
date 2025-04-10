@@ -1,26 +1,7 @@
 // components/TestimonialsSection.jsx
 import { FaQuoteLeft } from "react-icons/fa";
 
-const testimonials = [
-  {
-    text: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    avatar: "/images/user1.png",
-  },
-  {
-    text: "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "CEO, FinTrack",
-    avatar: "/images/user2.png",
-  },
-  {
-    text: "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "CTO, MoneyFlow",
-    avatar: "/images/user3.png",
-  },
-];
+import { testimonials } from "../others";
 
 export default function Testimonial() {
   return (

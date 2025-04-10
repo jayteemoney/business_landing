@@ -21,7 +21,7 @@ export default function Card() {
         {/* Right Card UI */}
         <div className="flex justify-center lg:justify-end">
           <img
-            src="/images/card-deal-ui.png" // Replace with the actual image from your Figma export
+            src="/src/assets/card.png" 
             alt="Card deal interface"
             className="w-full max-w-lg rounded-xl shadow-2xl"
           />

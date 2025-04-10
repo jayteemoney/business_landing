@@ -31,11 +31,11 @@ export const footerLinks = [
   ];
 
   export const partners = [
-    "/images/partner1.png",
-    "/images/partner2.png",
-    "/images/partner3.png",
-    "/images/partner4.png",
-    "/images/partner5.png",
+    "/src/assets/Vector.png",
+    "/src/assets/path16.png",
+    "/src/assets/Vector (1).png",
+    "/src/assets/Group 481737.png",
+    
   ];
   
   export const features = [
@@ -60,4 +60,25 @@ export const footerLinks = [
     { value: "3800+", label: "USER ACTIVE" },
     { value: "230+", label: "TRUSTED BY COMPANY" },
     { value: "$230M+", label: "TRANSACTION" },
+  ];
+
+ export const testimonials = [
+    {
+      text: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      name: "Herman Jensen",
+      title: "Founder & Leader",
+      avatar: "/src/assets/Image (2).png",
+    },
+    {
+      text: "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      name: "Steve Mark",
+      title: "CEO, FinTrack",
+      avatar: "/src/assets/Image (3).png",
+    },
+    {
+      text: "It is usually people in the money business, finance, and international trade that are really rich.",
+      name: "Kenn Gallagher",
+      title: "CTO, MoneyFlow",
+      avatar: "/src/assets/Image.png",
+    },
   ];
