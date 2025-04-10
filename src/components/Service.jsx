@@ -22,7 +22,7 @@ export default function Service() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-start space-x-4 bg-gradient-to-r from-[#1c1c1c] to-[#535353] bg-opacity-60 p-4 rounded-lg shadow-md"
+              className="flex items-start space-x-4 hover:bg-gradient-to-r from-[#1c1c1c] to-[#535353] bg-opacity-60 p-4 rounded-lg shadow-md"
             >
               <div className="mt-1">{feature.icon}</div>
               <div>

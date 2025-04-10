@@ -30,7 +30,7 @@ export default function Hero() {
             </div>
 
             {/* Headline + Button */}
-            <div className="flex items-start gap-6 mt-8">
+            <div className="flex items-start gap-2 mt-8">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                 The Next{" "}
                 <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
