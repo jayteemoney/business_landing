@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { robot } from "../assets";
 
 export default function Hero() {
   return (
@@ -71,7 +72,7 @@ export default function Hero() {
           {/* Image Container */}
           <div className="relative z-10 flex justify-center lg:justify-end">
             <img
-              src="./assets/robot.png"
+              src={robot}
               alt="3D Cards and Robotic Hand"
               className="w-full max-w-md md:max-w-lg drop-shadow-2xl"
             />
