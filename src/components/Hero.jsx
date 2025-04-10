@@ -3,18 +3,16 @@ import { ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#00040F]  text-white pt-24 pb-32 px-6 md:px-16 py-4">
+    <section className="relative overflow-hidden bg-[#00040F] text-white pt-24 pb-32 px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         {/* Left Content */}
         <div className="flex flex-col space-y-6 relative">
-          {/*  Discount Badge */}
+          {/* Discount Badge */}
           <div className="flex items-center gap-3 bg-gradient-to-r from-[#1c1c1c] to-[#535353] bg-opacity-60 px-4 py-2 rounded-full w-max shadow-sm backdrop-blur-md">
-            {/* Icon */}
             <div className="w-6 h-6 rounded-full bg-[#121212] flex items-center justify-center">
-              <span className="text-green-400 text-sm font-bold">%</span>
+              <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent text-sm font-bold">%</span>
             </div>
-            {/* Gradient Text */}
-            <p className="text-sm font-medium bg-gradient-to-r from-[#F2C94C] to-[#F2994A] text-transparent bg-clip-text">
+            <p className="text-sm font-medium ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
               20% DISCOUNT FOR <span className="font-bold">1 MONTH</span> ACCOUNT
             </p>
           </div>
@@ -22,15 +20,24 @@ export default function HeroSection() {
           {/* Headline + Button */}
           <div className="flex items-start gap-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-              The Next <span className="text-green-400">Generation</span><br />
-              Payment Method<span className="text-green-400">.</span>
+              The Next{" "}
+              <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
+                Generation
+              </span>
+              <br />
+              Payment Method
+              <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
+                .
+              </span>
             </h1>
 
-            {/* Get Started Button */}
-            <button className="shrink-0 border-2 border-green-400 text-green-400 rounded-full w-20 h-20 flex flex-col items-center justify-center text-xs font-medium hover:bg-green-400 hover:text-black transition text-center">
-              Get <br /> Started
-              <ArrowRight className="w-4 h-4 mt-1" />
-            </button>
+            {/* Get Started Button with Gradient Border Only */}
+            <div className="shrink-0 rounded-full p-[2px] bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)]">
+              <button className="w-20 h-20 rounded-full bg-[#00040F] text-white flex flex-col items-center justify-center text-xs font-medium hover:scale-105 transition">
+                Get <br /> Started
+                <ArrowRight className="w-4 h-4 mt-1" />
+              </button>
+            </div>
           </div>
 
           {/* Paragraph */}
@@ -44,7 +51,7 @@ export default function HeroSection() {
           <img
             src="/src/assets/robot.png"
             alt="3D Cards and Robotic Hand"
-            className="w-full max-w-md md:max-w-lg drop-shadow-2xl "
+            className="w-full max-w-md md:max-w-lg drop-shadow-2xl"
           />
         </div>
       </div>

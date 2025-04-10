@@ -11,7 +11,7 @@ export default function StatsSection() {
               <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
                 {stat.value}
               </span>
-              <span className="text-sm sm:text-base md:text-lg text-cyan-400 uppercase tracking-wide">
+              <span className=" ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent text-sm sm:text-base md:text-lg  uppercase tracking-wide">
                 {stat.label}
               </span>
             </div>
