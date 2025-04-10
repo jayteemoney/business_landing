@@ -16,7 +16,7 @@ export default function Hero() {
               opacity: '0.4'
             }}
           />
-
+          
           {/* Content */}
           <div className="relative z-10">
             {/* Discount Badge */}
@@ -30,7 +30,7 @@ export default function Hero() {
             </div>
 
             {/* Headline + Button */}
-            <div className="flex items-center gap-3 sm:gap-4 mt-8 flex-wrap">
+            <div className="flex items-start gap-2 mt-8">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                 The Next{" "}
                 <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
@@ -43,15 +43,14 @@ export default function Hero() {
                 </span>
               </h1>
 
-              <div className="shrink-0 p-[2px] bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] rounded-full">
-                <button className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full bg-[#00040F] text-white flex flex-col items-center justify-center text-xs sm:text-sm font-medium hover:scale-105 transition">
+              <div className="shrink-0 rounded-full p-[2px] bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)]">
+                <button className="w-28 h-28 rounded-full bg-[#00040F] text-white flex flex-col items-center justify-center text-xs font-medium hover:scale-105 transition">
                   Get <br /> Started
                   <ArrowRight className="w-4 h-4 mt-1" />
                 </button>
               </div>
             </div>
 
-            {/* Subtext */}
             <p className="text-gray-300 max-w-lg text-base sm:text-lg mt-6">
               Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
             </p>
