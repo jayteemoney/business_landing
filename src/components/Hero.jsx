@@ -8,7 +8,7 @@ export default function HeroSection() {
         {/* Left Content */}
         <div className="flex flex-col space-y-6 relative">
           {/*  Discount Badge */}
-          <div className="flex items-center gap-3 bg-gradient-to-r from-[#1c1c1c] to-[#2a2a2a] bg-opacity-60 px-4 py-2 rounded-full w-max shadow-sm backdrop-blur-md">
+          <div className="flex items-center gap-3 bg-gradient-to-r from-[#1c1c1c] to-[#535353] bg-opacity-60 px-4 py-2 rounded-full w-max shadow-sm backdrop-blur-md">
             {/* Icon */}
             <div className="w-6 h-6 rounded-full bg-[#121212] flex items-center justify-center">
               <span className="text-green-400 text-sm font-bold">%</span>

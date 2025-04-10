@@ -1,11 +1,6 @@
 // components/StatsSection.jsx
+import { stats } from "../others";
 export default function StatsSection() {
-  const stats = [
-    { value: "3800+", label: "USER ACTIVE" },
-    { value: "230+", label: "TRUSTED BY COMPANY" },
-    { value: "$230M+", label: "TRANSACTION" },
-  ];
-
   return (
     <section className="bg-[#00040F]  text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-6 sm:gap-0">

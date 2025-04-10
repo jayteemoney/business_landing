@@ -1,12 +1,7 @@
 // components/PartnerSection.jsx
+import { partners } from "../others";
 export default function Partners() {
-  const partners = [
-    "/images/partner1.png",
-    "/images/partner2.png",
-    "/images/partner3.png",
-    "/images/partner4.png",
-    "/images/partner5.png",
-  ];
+
 
   return (
     <section className=" bg-[#00040F] px-6 md:px-16 py-4">

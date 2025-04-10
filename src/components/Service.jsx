@@ -1,25 +1,9 @@
 // components/ServiceHighlight.jsx
-import { FaStar, FaShieldAlt, FaPaperPlane } from 'react-icons/fa';
+
+import { features } from '../others';
 
 export default function Service() {
-  const features = [
-    {
-      icon: <FaStar className="text-cyan-400 text-xl" />,
-      title: "Rewards",
-      desc: "The best credit cards offer some tantalizing combinations of promotions and prizes.",
-    },
-    {
-      icon: <FaShieldAlt className="text-cyan-400 text-xl" />,
-      title: "100% Secured",
-      desc: "We take proactive steps to make sure your information and transactions are secure.",
-    },
-    {
-      icon: <FaPaperPlane className="text-cyan-400 text-xl" />,
-      title: "Balance Transfer",
-      desc: "A balance transfer credit card can save you a lot of money in interest charges.",
-    },
-  ];
-
+  
   return (
     <section className="bg-[#00040F]  text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
