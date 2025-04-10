@@ -24,7 +24,7 @@ export default function Testimonial() {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="bg-[#1c1a2e] p-6 rounded-xl shadow-md hover:shadow-lg transition"
+            className="bg-gradient-to-r from-[#1c1c1c] to-[#535353] bg-opacity-60 p-6 rounded-xl shadow-md hover:shadow-lg transition"
           >
             <FaQuoteLeft className="text-cyan-400 text-2xl mb-4" />
             <p className="text-gray-300 text-sm mb-6">"{item.text}"</p>

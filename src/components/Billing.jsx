@@ -26,12 +26,12 @@ export default function Billing() {
 
           {/* Store Buttons */}
           <div className="flex items-center space-x-4 mt-4">
-            <button className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg transition">
+            <button className="flex items-center gap-2 bg-black hover:bg-gray-700 px-4 py-2 rounded-lg transition">
               <FaApple className="text-xl" />
               <span className="text-sm">App Store</span>
             </button>
 
-            <button className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg transition">
+            <button className="flex items-center gap-2 bg-black hover:bg-gray-700 px-4 py-2 rounded-lg transition">
               <FaGooglePlay className="text-xl" />
               <span className="text-sm">Google Play</span>
             </button>

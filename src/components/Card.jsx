@@ -1,3 +1,5 @@
+import Button from "../others/Button";
+
 // components/CardDealSection.jsx
 export default function Card() {
   return (
@@ -12,10 +14,7 @@ export default function Card() {
           <p className="text-gray-400 text-base sm:text-lg max-w-md">
             Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
           </p>
-
-          <button className="px-6 py-3 rounded-md bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
-            Get Started
-          </button>
+          <Button/>
         </div>
 
         {/* Right Card UI */}

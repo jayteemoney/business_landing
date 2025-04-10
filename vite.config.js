@@ -15,7 +15,7 @@ export default defineConfig({
     extend: {
       backgroundImage: {
         'radial-custom': 'radial-gradient(circle, #33BBCF, #DEF9FA)',
-        'radial-text': 'radial-gradient(circle, #33BBCF, #DEF9FA)',
+        'radial-text': 'radial-gradient(circle, #33BBCF, #5CE1E6, #7DE7EB, #9DEDFO, #BEF3F5, #DEF9FA)',
       },
     },
   },
