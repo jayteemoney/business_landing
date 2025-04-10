@@ -10,8 +10,11 @@ const Logo = () => {
           alt="NeoBank logo"
           className="h-8 sm:h-10"
         />
-        <span className="text-2xl sm:text-3xl font-bold">
-          Hoo<span className="text-blue-400">Bank</span>
+        <span className="text-2xl sm:text-3xl font-bold flex items-center">
+          Hoo
+          <span className="ml-1 bg-[radial-gradient(circle,_#33BBCF,_#DEF9FA)] bg-clip-text text-transparent">
+            Bank
+          </span>
         </span>
       </Link>
     </div>
