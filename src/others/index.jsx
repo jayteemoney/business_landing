@@ -1,4 +1,5 @@
 import { FaStar, FaShieldAlt, FaPaperPlane } from 'react-icons/fa';
+import { group, image1, image2, image3, path16, vector1, vector2 } from '../assets';
 export const footerLinks = [
     {
       title: "Useful Links",
@@ -31,10 +32,10 @@ export const footerLinks = [
   ];
 
   export const partners = [
-    "/src/assets/Vector.png",
-    "/src/assets/path16.png",
-    "/src/assets/Vector (1).png",
-    "/src/assets/Group 481737.png",
+    {vector2},
+    {path16},
+    {vector1},
+    {group},
     
   ];
   
@@ -67,18 +68,18 @@ export const footerLinks = [
       text: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
       name: "Herman Jensen",
       title: "Founder & Leader",
-      avatar: "/src/assets/Image (2).png",
+      avatar: {image2},
     },
     {
       text: "Money makes your life easier. If you're lucky to have it, you're lucky.",
       name: "Steve Mark",
       title: "CEO, FinTrack",
-      avatar: "/src/assets/Image (3).png",
+      avatar: {image3},
     },
     {
       text: "It is usually people in the money business, finance, and international trade that are really rich.",
       name: "Kenn Gallagher",
       title: "CTO, MoneyFlow",
-      avatar: "/src/assets/Image.png",
+      avatar: {image1},
     },
   ];

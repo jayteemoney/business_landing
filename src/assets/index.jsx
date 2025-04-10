@@ -1,2 +1,12 @@
 import robot from "./robot.png"
-export {robot}
+import card from "./card.png"
+import group from "./group.png"
+import image1 from "./image1.png"
+import image2 from "./image2.png"
+import image3 from "./image3.png"
+import logo from "./logo.png"
+import path16 from "./path16.png"
+import vector1 from "./vector1.png"
+import vector2 from "./vector2.png"
+import bill from "./bill.png"
+export {robot, card, bill, group, image2, image3, image1, logo, path16, vector1, vector2}

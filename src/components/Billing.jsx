@@ -1,4 +1,5 @@
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
+import { bill } from '../assets';
 
 export default function Billing() {
   return (
@@ -19,7 +20,7 @@ export default function Billing() {
           {/* Image Container */}
           <div className="relative z-10">
             <img
-              src="/src/assets/bill.png" 
+              src={bill} 
               alt="Billing and invoicing interface"
               className="w-full max-w-lg rounded-xl shadow-2xl"
             />

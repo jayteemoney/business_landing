@@ -1,3 +1,4 @@
+import { card } from "../assets";
 import Button from "../others/Button";
 
 // components/CardDealSection.jsx
@@ -20,7 +21,7 @@ export default function Card() {
         {/* Right Card UI */}
         <div className="flex justify-center lg:justify-end">
           <img
-            src="/src/assets/card.png" 
+            src={card} 
             alt="Card deal interface"
             className="w-full max-w-lg rounded-xl shadow-2xl"
           />

@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { logo } from "../assets";
 
 const Logo = () => {
   return (
     <div>
       <Link to="/" className="flex items-center space-x-2">
         <img
-          src="/src/assets/logo.png"
+          src={logo}
           alt="NeoBank logo"
           className="h-8 sm:h-10"
         />
