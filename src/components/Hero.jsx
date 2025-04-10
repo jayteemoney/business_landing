@@ -71,7 +71,7 @@ export default function Hero() {
           {/* Image Container */}
           <div className="relative z-10 flex justify-center lg:justify-end">
             <img
-              src="/src/assets/robot.png"
+              src="./assets/robot.png"
               alt="3D Cards and Robotic Hand"
               className="w-full max-w-md md:max-w-lg drop-shadow-2xl"
             />
