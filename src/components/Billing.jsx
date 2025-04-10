@@ -3,7 +3,7 @@ import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 export default function Billing() {
   return (
-    <section className="bg-[#00040F]  text-white px-6 py-16 lg:py-24">
+    <section className="bg-[#00040F]  text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Image */}
         <div className="flex justify-center lg:justify-start">

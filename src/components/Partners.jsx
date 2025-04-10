@@ -9,7 +9,7 @@ export default function Partners() {
   ];
 
   return (
-    <section className=" bg-[#00040F] px-6 py-12">
+    <section className=" bg-[#00040F] px-6 md:px-16 py-4">
       <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-8 items-center">
         {partners.map((logo, index) => (
           <img

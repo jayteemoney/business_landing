@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#00040F]  text-white pt-24 pb-32 px-6 lg:px-12">
+    <section className="relative overflow-hidden bg-[#00040F]  text-white pt-24 pb-32 px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         {/* Left Content */}
         <div className="flex flex-col space-y-6 relative">

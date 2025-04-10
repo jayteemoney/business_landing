@@ -1,7 +1,7 @@
 // components/CardDealSection.jsx
 export default function Card() {
   return (
-    <section className="bg-[#00040F]  text-white px-6 py-16 lg:py-24">
+    <section className="bg-[#00040F]  text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Text */}
         <div className="space-y-6">
