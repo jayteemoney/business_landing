@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 z-50 bg-[#00040F] backdrop-blur-md text-white px-6 md:px-16 py-4">
+    <nav className="w-full fixed top-0 z-50 bg-[#00040F] text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center relative">
         {/* Logo Section */}
         <Logo />
