@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { robot } from "../assets";
-import { gradientLeft, gradientRight } from '../others';
+import { gradientLeft, gradientRight } from '../others/stlyles';
 
 export default function Hero() {
   return (
