@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-[#00040F] text-white pt-24 pb-32 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         {/* Left Content */}
-        <div className="flex fle-col space-y-6 relative">
+        <div className="flex flex-col space-y-6 relative">
           {/* Gradient Background (Left) */}
           <div 
             className="absolute -left-40 -top-40 w-[600px] h-[600px] pointer-events-none"
