@@ -1,20 +1,18 @@
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 import { bill } from '../assets';
+import { gradientBilling } from '../others/stlyles';
 
 export default function Billing() {
   return (
     <section className="bg-[#00040F] text-white px-6 md:px-16 py-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left Image with Hero-style Gradient */}
+        
+        {/* Left Image with Gradient */}
         <div className="relative flex justify-center lg:justify-start">
-          {/* Gradient Background Element - Matches Hero section */}
+          {/* Reusable Gradient Style */}
           <div 
             className="absolute -left-40 -top-20 w-[600px] h-[600px] pointer-events-none"
-            style={{
-              background: 'radial-gradient(circle at center, #1c1c1c 0%, #00040F00 70%)',
-              mixBlendMode: 'screen',
-              opacity: '0.6'
-            }}
+            style={gradientBilling}
           />
           
           {/* Image Container */}
@@ -27,7 +25,7 @@ export default function Billing() {
           </div>
         </div>
 
-        {/* Right Text - Unchanged */}
+        {/* Right Text */}
         <div className="space-y-6">
           <h2 className="text-3xl sm:text-4xl font-bold leading-snug">
             Easily control your <br />
